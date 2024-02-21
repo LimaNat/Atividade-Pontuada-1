@@ -15,7 +15,7 @@ programa {
     escreva("\nSegunda nota: ", nota2)
     escreva("\nMedia: ", media)
 
-    se (media < 4){
+    se (media <= 4){
       escreva("\nReprovado")
     } senao {
       escreva("\nAprovado")
